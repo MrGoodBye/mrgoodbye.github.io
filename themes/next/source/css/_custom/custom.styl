@@ -1,0 +1,67 @@
+// Custom styles.
+hover-color = #2884de
+heart-color = #f75357
+highlight-color = #fe9000
+.logo-line-before, .logo-line-after {
+  display none
+}
+
+// logo样式
+.site-meta {
+  margin-left unset
+  .site-title {
+    &:hover {
+      color highlight-color
+    }
+  }
+}
+
+// 当前标签页样式
+.menu-item-active {
+  a {
+    color highlight-color
+  }
+}
+
+.footer {
+  min-height unset
+  .footer-inner {
+    text-align: right;
+    .with-love {
+      color heart-color
+    }
+    .author {
+      cursor pointer
+      &:hover {
+        color hover-color
+        border-bottom-color hover-color
+      }
+    }
+  }
+}
+
+// 隐藏云标签标题
+.tag-cloud-title {
+  display none
+}
+
+// 隐藏分类标题
+.category-all-title {
+  display none
+}
+
+// 隐藏归档标题
+.archive-page-counter {
+  display none
+}
+
+.gitment-footer-container {
+  display none
+}
+
+.gitment-editor-login-link,
+.gitment-header-issue-link {
+  &:hover {
+    text-decoration none !important
+  }
+}

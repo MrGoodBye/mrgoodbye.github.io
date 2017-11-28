@@ -1,0 +1,11 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+     <div id="footer-right">
+       &copy; <%= date(new Date(), 'YYYY') %> <a href="<%- url_for(config.url)%>"><%= config.author || config.title %></a>
+    </div>
+  </div>
+</footer>
+ <%- js('jquery/jquery.min.js') %>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/layout/_partials/comments.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/changyan.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/disqus.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/duoshuo.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/gitment.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/hypercomments.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/index.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/livere.swig" />
+    <file url="file://$PROJECT_DIR$/layout/_third-party/comments/youyan.swig" />
+  </component>
+</project>
